@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
+}
+.content{
+    width: 375px;
+    height: 800px;
+    place-self: center;
+    background: linear-gradient(150.03deg, #FFFFFF 0%, #FFF4F4 84.51%);
+}
+.img2{
+    display: none;
+}
+.logo-img{
+    padding: 31px 0 32px 32px;
+}
+.img-header{
+    Width:376px;
+    Height:250px;
+}
+.img1{
+    width: 100%;
+}
+.main{
+    text-align: center;
+}
+.main-h1{
+    margin-top: 64px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 42px; 
+    letter-spacing: 10.8254px;
+    color: #CE9898;
+}
+span{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    color: #423A3A;
+}
+.text{
+    padding: 16px 32px 32px 32px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #CE9898;
+}
+.validation{
+    display: flex;
+    padding: 0 32px 0 32px;
+}  
+.mail-button{
+    border-radius: 28px;
+    border-color: #CE9898;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #CE9898; 
+    opacity: 50%;
+    padding-left: 24px;
+    height: 48px;
+    width: 311px;
+    
+    }   
+    
+.arrow-button{
+    height: 48px;
+    width: 64px;
+    border-radius: 28px;
+    background: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+    border: none;
+    position: absolute;
+    box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);  
+    margin-left: 246px;  
+    } 
+    
+    
+.error{
+    padding-top: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: normal;
+    display: none;
+    color: #F96464;
+    text-align: start;
+    padding-left: 56px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    }  
+    
+.icon-error{
+    position: absolute;
+    display: none;
+    margin-left: 200px; 
+    margin-top: 14px;
+    } 
+   
+@media screen and (min-width:1245px){
+    .img1{
+        display: none;
+    }
+    body{
+        background-image: url(images/hero-desktop.jpg);
+        background-size: 610px 100vh;
+        background-repeat: no-repeat;
+        background-position-x: 830px;
+    }
+    .content{
+        background: url(images/bg-pattern-desktop.svg);
+        background-repeat: no-repeat;
+        width: 830px;
+        place-self: start;
+    }
+    .logo-img{
+        padding: 64px 465px 0 165px;  
+    }
+    .img-header{
+        display: none;
+    }
+    .h1-conetiner{
+        padding-left: 165px;
+        Width:444px;
+        Height:192px;
+    }
+    .main-h1{
+        text-align: start;
+        margin-top: 136px;
+        font-size: 64px;
+        line-height: 64px; 
+        letter-spacing: 17.32 px;
+    }
+    .span{
+        line-height: 72px;
+    }
+    .text{
+        padding: 32px 220px 40px 166px;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: start;
+    }
+    .validation{
+        padding-left: 165px;
+    }
+    .mail-button{
+        height: 56px;
+        width: 445px;
+        padding-left: 32px;
+
+    }  
+    .arrow-button{
+        height: 56px;
+        width: 100px;
+        border-radius: 28px;
+        background: linear-gradient(135deg, #F8BFBF 0%, #EE8B8B 100%);
+        border: none;
+        position: absolute;
+        box-shadow: 0px 15px 20px rgba(198, 110, 110, 0.247569);  
+        margin-left: 344px;  
+    } 
+    .icon-error{
+        padding-left: 88px;
+    }
+    .error{
+        padding-left: 197px;
+    }
+    
+
+
+    
+}

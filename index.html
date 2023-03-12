@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <title> Base Apparel coming soon page</title>
+  </style>
+</head>
+<body>
+  <div class="content">
+      <img src="images/logo.svg" alt="logo" class="logo-img">
+      <div class="img-header">
+        <img src="images/hero-mobile.jpg" alt="hero" class="img1">
+        <img src="images/hero-desktop.jpg" alt="hero" class="img2">
+      </div>
+      <div class="main">
+        <div class="h1-conetiner">
+        <h1 class="main-h1">WE'RE <span>COMING SOON</span></h1>
+       </div>
+        <p class="text">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+        <div class="validation">
+          <input class="mail-button"
+            placeholder="Email Address" 
+          />
+            <img class="icon-error" src="./images/icon-error.svg">
+          
+          <button class="arrow-button">
+            <img class="arrow" src="./images/icon-arrow.svg">
+          </button>
+              </div>
+        <p class="error">Pleace provide a valid e-mail</p>
+    </div>
+    <script>
+      const button = document.querySelector(".arrow-button")
+      const errorText = document.querySelector(".error")
+      const errorIcon = document.querySelector(".icon-error")
+      button.addEventListener('click',function(){
+        errorText.style.display = 'block'
+        errorIcon.style.display = 'inline'
+      })
+    </script>
+</body>
+</html>

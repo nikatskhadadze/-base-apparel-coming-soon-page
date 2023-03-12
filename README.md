@@ -4,8 +4,8 @@
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://nikatskhadadze.github.io/base-apparel-coming-soon-page/
+- Live Site URL: https://github.com/nikatskhadadze/base-apparel-coming-soon-page
 
 ### Built with
 
